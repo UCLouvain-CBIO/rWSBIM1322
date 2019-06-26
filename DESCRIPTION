@@ -1,0 +1,17 @@
+Package: rWSBIM1322
+Title: Companion Package for WSBIM1322 Course
+Version: 0.1.0
+Authors@R:
+    person(given = "Laurent",
+	   family = "Gatto",
+	   role = c("aut", "cre"),
+	   email = "laurent.gatto@uclouvain.be",
+	   comment = c(ORCID = "0000-0002-1520-2268"))
+Description: Companion package for the WSBIM1322 course, distributing
+    data and general documentation, and making course administration
+    easier.
+Depends: R (>= 3.5.0)
+Suggests: rWSBIM1207
+License: GPL-2
+Encoding: UTF-8
+LazyData: true
