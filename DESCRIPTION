@@ -10,7 +10,23 @@ Authors@R:
 Description: Companion package for the WSBIM1322 course, distributing
     data and general documentation, and making course administration
     easier.
-Depends: R (>= 3.5.0)
+Depends: R (>= 3.5.0),
+   SummarizedExperiment,
+   MSnbase,
+   pRolocdata,
+   ggplot2,
+   tidyverse,
+   curatedTCGAData, 
+   ALL,
+   Biostrings,
+   Rtsne,
+   plotly,
+   ggbio,
+   Gviz,
+   caret,
+   e1071,
+   class,
+   cluster
 Suggests: rWSBIM1207
 License: GPL-2
 Encoding: UTF-8
