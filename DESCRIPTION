@@ -28,7 +28,7 @@ Depends: R (>= 3.5.0),
    class,
    cluster
 Suggests:
-  rWSBIM1207
+  rWSBIM1207,
   dslabs
 Remotes:
   UCLouvain-CBIO/rWSBIM1207
