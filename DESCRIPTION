@@ -29,7 +29,8 @@ Depends: R (>= 3.5.0),
    cluster
 Suggests:
   rWSBIM1207,
-  dslabs
+  dslabs,
+  Hiiragi2013
 Remotes:
   UCLouvain-CBIO/rWSBIM1207
 License: GPL-2
