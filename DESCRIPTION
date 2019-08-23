@@ -12,11 +12,12 @@ Description: Companion package for the WSBIM1322 course, distributing
     easier.
 Depends: R (>= 3.5.0),
    SummarizedExperiment,
+   airway,
    MSnbase,
    pRolocdata,
    ggplot2,
    tidyverse,
-   curatedTCGAData, 
+   curatedTCGAData,
    ALL,
    Biostrings,
    Rtsne,
