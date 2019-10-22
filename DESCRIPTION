@@ -1,6 +1,6 @@
 Package: rWSBIM1322
 Title: Companion Package for WSBIM1322 Course
-Version: 0.1.1
+Version: 0.1.2
 Authors@R:
     person(given = "Laurent",
 	   family = "Gatto",
@@ -11,12 +11,14 @@ Description: Companion package for the WSBIM1322 course, distributing
     data and general documentation, and making course administration
     easier.
 Depends: R (>= 3.5.0),
+Suggests:
+   rWSBIM1207,
    SummarizedExperiment,
-   airway,
    MSnbase,
-   pRolocdata,
-   ggplot2,
-   tidyverse,
+   mzR,
+   tidyverse,   
+   dslabs,
+   Hiiragi2013,
    curatedTCGAData,
    ALL,
    Biostrings,
@@ -27,13 +29,12 @@ Depends: R (>= 3.5.0),
    caret,
    e1071,
    class,
-   cluster
-Suggests:
-  rWSBIM1207,
-  dslabs,
-  Hiiragi2013
+   cluster,
+   airway,
+   pRolocdata
 Remotes:
   UCLouvain-CBIO/rWSBIM1207
 License: GPL-2
 Encoding: UTF-8
 LazyData: true
+RoxygenNote: 6.1.1
