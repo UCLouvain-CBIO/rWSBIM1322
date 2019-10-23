@@ -18,11 +18,11 @@
   proteins/microL). In this suset, we limited ourselves to the data of
   LTQ-Orbitrap W at site 56. The data were searched with MaxQuant
   version 1.5.2.8, and detailed search settings were described in
-  Goeminne et al. (2016). Three replicates are available for each
-  concentration.
+  Goeminne et al. (2016). Three replicates peptide quantitation data are
+  available for each concentration.
 
   The data are available as MSnbase or SummarizedExperiment objects.
-  
+
 }
 
 \usage{
@@ -32,12 +32,12 @@ data("cptac_se")
 
 
 \source{
-  
+
   See the proteomics tutorial from the Bioinformatics Summer School 2019
   (https://lgatto.github.io/bioc-ms-prot/bss-lab.html) for scripts on
   how these data were processed. These data contain up to 3 missing
   values per features.
-  
+
 }
 
 \examples{
@@ -45,9 +45,17 @@ library("MSnbase")
 data(cptac)
 cptac
 
+library("magrittr")
+cptac_prot <-
+   cptac %>%
+   log(base = 2) %>%                    ## log2 transformation
+   normalise(method = "quantiles") %>%  ## normalisation
+   combineFeatures(fcol = "Proteins",   ## peptide aggregation
+		   method = "robust",
+		   na.rm = TRUE)
+
 library("SummarizedExperiment")
 data(cptac_se)
 cptac_se
+
 }
-
-
