@@ -19,7 +19,7 @@ save(tdata1, file = "../../data/tdata1.rda")
 set.seed(42)
 x <- rnorm(15, 10, 2)
 tdata2 <- data.frame(before = x,
-                     after = x + abs(rnorm(15, 0, 0.1)),
+                     after = x - abs(rnorm(15, 0, 0.1)),
                      row.names = paste0("patient", 1:15))
 
 save(tdata2, file = "../../data/tdata2.rda")
