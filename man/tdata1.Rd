@@ -3,6 +3,7 @@
 \docType{data}
 \name{tdata1}
 \alias{tdata1}
+\alias{tdata2}
 \title{Example data for t-tests illustration}
 \format{An object of class \code{matrix} with 100 rows and 6 columns.}
 \usage{
@@ -15,5 +16,8 @@ See `scripts/randata.R` for how these data were generated.
 data(tdata1)
 dim(tdata1)
 head(tdata1)
+
+data(tdata2)
+tdata2
 }
 \keyword{datasets}

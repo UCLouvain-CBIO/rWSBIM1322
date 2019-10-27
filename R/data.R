@@ -44,8 +44,13 @@
 #'
 #' See `scripts/randata.R` for how these data were generated.
 #'
+#' @aliases tdata2
+#' 
 #' @examples
 #' data(tdata1)
 #' dim(tdata1)
 #' head(tdata1)
+#'
+#' data(tdata2)
+#' tdata2
 "tdata1"
