@@ -37,4 +37,15 @@
 #' library("SummarizedExperiment")
 #' data(cptac_se)
 #' cptac_se
-"cptac"
+"cptac" 
+
+
+#' Example data for t-tests illustration
+#'
+#' See `scripts/randata.R` for how these data were generated.
+#'
+#' @examples
+#' data(tdata1)
+#' dim(tdata1)
+#' head(tdata1)
+"tdata1"

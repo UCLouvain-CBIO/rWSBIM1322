@@ -1,6 +1,6 @@
 Package: rWSBIM1322
 Title: Companion Package for WSBIM1322 Course
-Version: 0.1.3
+Version: 0.1.4
 Authors@R:
     person(given = "Laurent",
 	   family = "Gatto",
