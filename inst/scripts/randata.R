@@ -14,3 +14,12 @@ make_data <- function(n, p,
 tdata1 <- make_data(100, 6, m = 10, sd = 2, seed = 123)
 
 save(tdata1, file = "../../data/tdata1.rda")
+
+
+set.seed(42)
+x <- rnorm(15, 1)
+tdata2 <- data.frame(before = x,
+                     after = x + abs(rnorm(15, 0, 0.1)),
+                     row.names = paste0("patient", 1:15))
+
+save(tdata2, file = "../../data/tdata2.rda")
