@@ -25,7 +25,7 @@ tdata2 <- data.frame(before = x,
 save(tdata2, file = "../../data/tdata2.rda")
 
 
-tdata3 <- m <- log2(make_data(100, 6, m = 9, sd = 2, seed = 123))
+tdata3 <- log2(make_data(100, 6, m = 9, sd = 2, seed = 123))
 set.seed(123)
 sc <- rnorm(3, 3, 0.5)
 tdata3[, 4:6] <- tdata3[, 4:6] + sc
