@@ -4,6 +4,7 @@
 \name{tdata1}
 \alias{tdata1}
 \alias{tdata2}
+\alias{tdata3}
 \title{Example data for t-tests illustration}
 \format{An object of class \code{matrix} with 100 rows and 6 columns.}
 \usage{
@@ -18,6 +19,9 @@ dim(tdata1)
 head(tdata1)
 
 data(tdata2)
-tdata2
+head(tdata2)
+
+data(tdata3)
+head(tdata3)
 }
 \keyword{datasets}
