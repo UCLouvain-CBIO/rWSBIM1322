@@ -17,6 +17,7 @@
 #' (https://lgatto.github.io/bioc-ms-prot/bss-lab.html) for scripts on how these
 #' data were processed.
 #'
+#' @md
 #' @rdname cptac
 #' @aliases cptac_se
 #' @examples
@@ -37,20 +38,25 @@
 #' library("SummarizedExperiment")
 #' data(cptac_se)
 #' cptac_se
-"cptac" 
+"cptac"
 
 
 #' Example data for t-tests illustration
 #'
 #' See `scripts/randata.R` for how these data were generated.
 #'
-#' @aliases tdata2
-#' 
+#' @aliases tdata2 tdata3 tdata4
+#'
 #' @examples
 #' data(tdata1)
-#' dim(tdata1)
 #' head(tdata1)
 #'
 #' data(tdata2)
 #' tdata2
+#'
+#' data(tdata3)
+#' tdata3
+#'
+#' data(tdata4)
+#' tdata4
 "tdata1"

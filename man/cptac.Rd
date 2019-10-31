@@ -22,7 +22,7 @@ described in Goeminne et al. (2016). Three replicates peptide quantitation
 data are available for each concentration.
 }
 \details{
-The data are available as `MSnSet` or `SummarizedExperiment` objects.
+The data are available as \code{MSnSet} or \code{SummarizedExperiment} objects.
 
 See the proteomics tutorial from the Bioinformatics Summer School 2019
 (https://lgatto.github.io/bioc-ms-prot/bss-lab.html) for scripts on how these
