@@ -38,7 +38,8 @@ cptac_prot <- cptac %>%
     normalise(method = "quantiles") %>%
     combineFeatures(fcol = "Proteins", 
                     method = "robust",
-                    na.rm = TRUE)
+                    na.rm = TRUE,
+                    cv = FALSE)
 
 set.seed(123)
 i <- c(1:14, ## UPS spike ins
