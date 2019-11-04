@@ -19,7 +19,7 @@
 #'
 #' @md
 #' @rdname cptac
-#' @aliases cptac_se
+#' @aliases cptac_se cptac_prot cptac_se_prot
 #' @examples
 #' library("MSnbase")
 #' data(cptac)
@@ -35,9 +35,16 @@
 #'                    na.rm = TRUE)
 #' cptac_prot
 #'
+#' ## To load a subset of that protein-level data
+#' data(cptac_prot)
+#' cptac_prot
+#'
+#' ## Same data as SummarizedExperiment object
 #' library("SummarizedExperiment")
 #' data(cptac_se)
 #' cptac_se
+#' data(cptac_se_prot)
+#' cptac_se_prot
 "cptac"
 
 

@@ -30,3 +30,22 @@ cptac_se <- as(cptac, "SummarizedExperiment")
 
 save(cptac, file = "../../data/cptac.rda")
 save(cptac_se, file = "../../data/cptac_se.rda")
+
+library("magrittr")
+
+cptac_prot <- cptac %>%
+    log(base = 2) %>%
+    normalise(method = "quantiles") %>%
+    combineFeatures(fcol = "Proteins", 
+                    method = "robust",
+                    na.rm = TRUE)
+
+set.seed(123)
+i <- c(1:14, ## UPS spike ins
+       sample(15:1125, 100))
+
+cptac_prot <- cptac_prot[i, ]
+cptac_se_prot <- as(cptac_prot, "SummarizedExperiment")
+
+save(cptac_prot, file = "../../data/cptac_prot.rda")
+save(cptac_se_prot, file = "../../data/cptac_se_prot.rda")

@@ -4,6 +4,8 @@
 \name{cptac}
 \alias{cptac}
 \alias{cptac_se}
+\alias{cptac_prot}
+\alias{cptac_se_prot}
 \title{CPTAC data}
 \format{An object of class \code{MSnSet} with 4051 rows and 6 columns.}
 \usage{
@@ -43,8 +45,15 @@ cptac_prot <- cptac \%>\%
                    na.rm = TRUE)
 cptac_prot
 
+## To load a subset of that protein-level data
+data(cptac_prot)
+cptac_prot
+
+## Same data as SummarizedExperiment object
 library("SummarizedExperiment")
 data(cptac_se)
 cptac_se
+data(cptac_se_prot)
+cptac_se_prot
 }
 \keyword{datasets}
