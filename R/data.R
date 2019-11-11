@@ -81,10 +81,10 @@
 #' @aliases xy0
 #'
 #' @examples
-#' data(xy0)
+#' data(xy)
+#'
 #' xy0
 #' 
-#' data(xy)
 #' xy
 #' pca <- prcomp(xy)
 #' summary(pca)
