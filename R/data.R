@@ -20,6 +20,7 @@
 #' @md
 #' @rdname cptac
 #' @aliases cptac_se cptac_prot cptac_se_prot
+#'
 #' @examples
 #' library("MSnbase")
 #' data(cptac)
