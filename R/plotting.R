@@ -1,3 +1,4 @@
+#' @import graphics
 blank_plot <- function() {
     plot(1:10, 1:10, type = "n",
          xaxt = "n", yaxt = "n",

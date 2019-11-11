@@ -1,0 +1,6 @@
+set.seed(122)
+gene_x <- sort(stats::rnorm(20, 6, 1))
+gene_y <- gene_x + stats::rnorm(20)
+xy0 <- data.frame(gene_x, gene_y)
+rm(gene_x, gene_y)
+xy <- data.frame(scale(xy0))

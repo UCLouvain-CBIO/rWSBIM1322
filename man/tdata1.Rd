@@ -12,7 +12,7 @@
 tdata1
 }
 \description{
-See `scripts/randata.R` for how these data were generated.
+See \code{scripts/randata.R} for how these data were generated.
 }
 \examples{
 data(tdata1)

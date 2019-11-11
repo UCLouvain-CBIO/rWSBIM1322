@@ -52,6 +52,8 @@
 #'
 #' See `scripts/randata.R` for how these data were generated.
 #'
+#' @md
+#'
 #' @aliases tdata2 tdata3 tdata4
 #'
 #' @examples
@@ -67,3 +69,24 @@
 #' data(tdata4)
 #' tdata4
 "tdata1"
+
+#' Example data for PCA illustration
+#'
+#' See `man/xy.R` for how these data were generated. `xy` is scaled,
+#' `xy0` is the orginal data.
+#'
+#' @md
+#'
+#' @aliases xy0
+#'
+#' @examples
+#' data(xy0)
+#' xy0
+#' 
+#' data(xy)
+#' xy
+#' pca <- prcomp(xy)
+#' summary(pca)
+#' plot(pca)
+#' biplot(pca)
+"xy"
