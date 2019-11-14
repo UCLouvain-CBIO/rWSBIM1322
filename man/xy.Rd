@@ -14,10 +14,10 @@ See \code{man/xy.R} for how these data were generated. \code{xy} is scaled,
 \code{xy0} is the orginal data.
 }
 \examples{
-data(xy0)
+data(xy)
+
 xy0
 
-data(xy)
 xy
 pca <- prcomp(xy)
 summary(pca)

@@ -84,10 +84,25 @@
 #' data(xy)
 #'
 #' xy0
-#' 
+#'
 #' xy
 #' pca <- prcomp(xy)
 #' summary(pca)
 #' plot(pca)
 #' biplot(pca)
 "xy"
+
+#' Metabolomics data (from MSMB)
+#'
+#' This data comes from the Modern *Statistics for Modern Biology* book and was
+#' originally called `mat1` from the `mat1xcms.RData` file. It contains
+#' quantitation data for 399 metabolites and 6 knock-out and 6 wild-type
+#' samples.
+#'
+#' @md
+#' @examples
+#' data(metab1)
+#'
+#' dim(metab1)
+#' metab1[1:10, 1:3]
+"metab1"
