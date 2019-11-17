@@ -106,3 +106,17 @@
 #' dim(metab1)
 #' metab1[1:10, 1:3]
 "metab1"
+
+
+#' Expression data
+#'
+#' This data is a copy of the `iris` data, reframed for biomedical
+#' course. It illustrates the expression of 4 genes, BRCA1, BRCA2,
+#' TP53 and A1CF, in 150 patients, that have been categorised in 3
+#' catégories, A, B and C.
+#'
+#' @md
+#'
+#' @examples
+#' head(giris)
+#' pairs(giris, col = giris$GRADE)
