@@ -120,3 +120,19 @@
 #' @examples
 #' head(giris)
 #' pairs(giris, col = giris$GRADE)
+"giris"
+
+
+#' Example for distances
+#'
+#' This is a small toy example providing expression values for 5 genes
+#' and three samples from Olga Vitek. It is used to compare euclidean
+#' and correlation distances and the effect/importance of scaling.
+#'
+#' @md
+#'
+#' @examples
+#' data(g3)
+#' g3
+#' matplot(t(g3), type = "b", xlab = "Samples", ylab = "Expression")
+"g3"
