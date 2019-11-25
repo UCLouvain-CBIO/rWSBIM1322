@@ -64,7 +64,7 @@ dr_summary <- function() {
     dr_output()
 }
 
-ht_input <- function(main = "Hypthesis testing (input)") {
+ht_input <- function(main = "Hypothesis testing (input)") {
     blank_plot()
     title(main = main)
     quant_data()
@@ -74,7 +74,7 @@ ht_input <- function(main = "Hypthesis testing (input)") {
 
 ht_output <- function() {
     ht_input(main = "")
-    title(main = "Hypthesis testing (output)")
+    title(main = "Hypothesis testing (output)")
     rect(9.2, 1, 10.2, 2)
     rect(9.2, 2, 10.2, 3)
     rect(9.2, 3, 10.2, 4)
