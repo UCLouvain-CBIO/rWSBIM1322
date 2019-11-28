@@ -3,6 +3,7 @@
 \docType{data}
 \name{giris}
 \alias{giris}
+\alias{giris2}
 \title{Expression data}
 \format{An object of class \code{data.frame} with 150 rows and 5 columns.}
 \usage{
@@ -17,5 +18,8 @@ catégories, A, B and C.
 \examples{
 head(giris)
 pairs(giris, col = giris$GRADE)
+
+pca <- prcomp(giris2[, -5], scale = TRUE)
+fviz_pca_ind(pca2, col.ind = giris2$GRADE)
 }
 \keyword{datasets}

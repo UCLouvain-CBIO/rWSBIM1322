@@ -117,9 +117,14 @@
 #'
 #' @md
 #'
+#' @aliases giris2
+#'
 #' @examples
 #' head(giris)
 #' pairs(giris, col = giris$GRADE)
+#'
+#' pca <- prcomp(giris2[, -5], scale = TRUE)
+#' fviz_pca_ind(pca2, col.ind = giris2$GRADE)
 "giris"
 
 
