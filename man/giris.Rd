@@ -19,7 +19,7 @@ catégories, A, B and C.
 head(giris)
 pairs(giris, col = giris$GRADE)
 
-pca <- prcomp(giris2[, -5], scale = TRUE)
-fviz_pca_ind(pca2, col.ind = giris2$GRADE)
+pca2 <- prcomp(giris2[, -5], scale = TRUE)
+factoextra::fviz_pca_ind(pca2, col.ind = giris2$GRADE)
 }
 \keyword{datasets}
