@@ -143,3 +143,19 @@
 #' g3
 #' matplot(t(g3), type = "b", xlab = "Samples", ylab = "Expression")
 "g3"
+
+
+#' SummarizedExperiment data
+#'
+#' This is a small RNA-Seq data set, build from the data returned by
+#' the `rWSBIM1207::kem2.tsv()` function.
+#'
+#' @md
+#'
+#' @examples
+#' library("SummarizedExperiment")
+#' data(kem2_se)
+#' assay(kem2_se)
+#' colData(kem2_se)
+#' rowData(kem2_se)
+"kem2_se"
