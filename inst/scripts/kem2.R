@@ -2,6 +2,7 @@ e <- as.matrix(read.delim(rWSBIM1207::kem2.tsv()[1], row.names = 1))
 pd <- readr::read_tsv(rWSBIM1207::kem2.tsv()[2]) %>%
     mutate(sample_id = sub("-", ".", sample_id))
 pd$jurkat <- NULL
+pd$treatment[pd$treatment == "none"] <- "control"
 
 library("SummarizedExperiment")
 
