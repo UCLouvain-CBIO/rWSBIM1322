@@ -21,7 +21,7 @@
 #'
 #' @md
 #' @rdname cptac
-#' @aliases cptac_se cptac_prot cptac_se_prot
+#' @aliases cptac_se cptac_prot cptac_se_prot cptac_na_se
 #'
 #' @examples
 #' library("MSnbase")
