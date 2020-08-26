@@ -37,6 +37,7 @@ cptac_na_se <- as(cptac_na, "SummarizedExperiment")
 save(cptac, file = "../../data/cptac.rda")
 save(cptac_se, file = "../../data/cptac_se.rda")
 save(cptac_na_se, file = "../../data/cptac_na_se.rda")
+save(cptac_na, file = "../../data/cptac_na.rda")
 
 library("magrittr")
 
