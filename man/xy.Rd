@@ -5,7 +5,9 @@
 \alias{xy}
 \alias{xy0}
 \title{Example data for PCA illustration}
-\format{An object of class \code{data.frame} with 20 rows and 2 columns.}
+\format{
+An object of class \code{data.frame} with 20 rows and 2 columns.
+}
 \usage{
 xy
 }

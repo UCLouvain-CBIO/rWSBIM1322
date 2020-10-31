@@ -4,7 +4,9 @@
 \name{metab1}
 \alias{metab1}
 \title{Metabolomics data (from MSMB)}
-\format{An object of class \code{matrix} with 399 rows and 12 columns.}
+\format{
+An object of class \code{matrix} (inherits from \code{array}) with 399 rows and 12 columns.
+}
 \usage{
 metab1
 }

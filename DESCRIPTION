@@ -1,6 +1,6 @@
 Package: rWSBIM1322
 Title: Companion Package for WSBIM1322 Course
-Version: 0.1.15
+Version: 0.2.0
 Authors@R:
     person(given = "Laurent",
 	   family = "Gatto",
@@ -18,7 +18,6 @@ Suggests:
    mzR,
    tidyverse,
    magrittr,
-   dslabs,
    Hiiragi2013,
    curatedTCGAData,
    ALL,
@@ -26,7 +25,6 @@ Suggests:
    Rtsne,
    factoextra,
    plotly,
-   ggbio,
    Gviz,
    caret,
    e1071,
@@ -39,4 +37,4 @@ Remotes:
 License: GPL-2
 Encoding: UTF-8
 LazyData: true
-RoxygenNote: 7.0.2
+RoxygenNote: 7.1.1

@@ -7,7 +7,9 @@
 \alias{tdata3}
 \alias{tdata4}
 \title{Example data for t-tests illustration}
-\format{An object of class \code{matrix} with 100 rows and 6 columns.}
+\format{
+An object of class \code{matrix} (inherits from \code{array}) with 100 rows and 6 columns.
+}
 \usage{
 tdata1
 }

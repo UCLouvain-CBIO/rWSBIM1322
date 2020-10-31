@@ -4,7 +4,9 @@
 \name{kem2_se}
 \alias{kem2_se}
 \title{SummarizedExperiment data}
-\format{An object of class \code{SummarizedExperiment} with 4774 rows and 16 columns.}
+\format{
+An object of class \code{SummarizedExperiment} with 4774 rows and 16 columns.
+}
 \usage{
 kem2_se
 }

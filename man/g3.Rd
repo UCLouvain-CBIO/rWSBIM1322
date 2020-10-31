@@ -4,7 +4,9 @@
 \name{g3}
 \alias{g3}
 \title{Example for distances}
-\format{An object of class \code{matrix} with 3 rows and 5 columns.}
+\format{
+An object of class \code{matrix} (inherits from \code{array}) with 3 rows and 5 columns.
+}
 \usage{
 g3
 }

@@ -6,8 +6,11 @@
 \alias{cptac_se}
 \alias{cptac_prot}
 \alias{cptac_se_prot}
+\alias{cptac_na_se}
 \title{CPTAC data}
-\format{An object of class \code{MSnSet} with 4051 rows and 6 columns.}
+\format{
+An object of class \code{MSnSet} with 4051 rows and 6 columns.
+}
 \usage{
 cptac
 }

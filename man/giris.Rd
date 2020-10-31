@@ -5,7 +5,9 @@
 \alias{giris}
 \alias{giris2}
 \title{Expression data}
-\format{An object of class \code{data.frame} with 150 rows and 5 columns.}
+\format{
+An object of class \code{data.frame} with 150 rows and 5 columns.
+}
 \usage{
 giris
 }
