@@ -11,7 +11,9 @@ Description: Companion package for the WSBIM1322 course, distributing
     data and general documentation, and making course administration
     easier.
 Depends: R (>= 3.5.0),
-Imports: SummarizedExperiment
+Imports:
+   SummarizedExperiment,
+   S4Vectors
 Suggests:
    rWSBIM1207,
    MSnbase,
