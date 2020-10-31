@@ -2,5 +2,8 @@
 
 export(make_data)
 export(rWSBIM1322version)
+import(S4Vectors)
+import(SummarizedExperiment)
 import(graphics)
+importFrom(utils,data)
 importFrom(utils,packageVersion)

@@ -6,6 +6,12 @@
 ##'
 ##' @export
 ##'
+##' @import SummarizedExperiment
+##'
+##' @import S4Vectors
+##'
+##' @importFrom utils data
+##'
 ##' @examples
 ##' make_data("123")
 make_data <- function(noma) {
@@ -16,8 +22,6 @@ make_data <- function(noma) {
     noma <- as.numeric(noma)
     set.seed(noma)
 
-    stopifnot(suppressPackageStartupMessages(require("SummarizedExperiment")))
-    
     ## aa <- readAAStringSet("./up.fasta.gz")
     ## names(aa) <- sub("\\|.+$", "", sub("sp\\|", "", names(aa)))
     aaf <- dir(system.file("extdata", package = "rWSBIM1322"),
@@ -25,7 +29,7 @@ make_data <- function(noma) {
     aanames <- readRDS(aaf)
 
     ## prepare expression data
-    data(cptac_se_prot, package = "rWSBIM1322")
+    data(cptac_se_prot, package = "rWSBIM1322", envir = environment())
     x <- cptac_se_prot
     metadata(x) <- list()
 
