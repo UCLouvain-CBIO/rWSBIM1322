@@ -29,6 +29,7 @@ make_data <- function(noma) {
     aanames <- readRDS(aaf)
 
     ## prepare expression data
+    cptac_se_prot <- NULL
     data(cptac_se_prot, package = "rWSBIM1322", envir = environment())
     x <- cptac_se_prot
     metadata(x) <- list()
