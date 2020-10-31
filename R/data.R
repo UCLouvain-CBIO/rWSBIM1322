@@ -20,7 +20,9 @@
 #' scripts on how these data were processed.
 #'
 #' @md
+#' 
 #' @rdname cptac
+#' 
 #' @aliases cptac_se cptac_prot cptac_se_prot cptac_na_se cptac_na
 #'
 #' @examples
