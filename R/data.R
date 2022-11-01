@@ -12,8 +12,7 @@
 #' settings were described in Goeminne et al. (2016). Three replicates
 #' peptide quantitation data are available for each concentration.
 #'
-#' The data are available as `MSnSet` or `SummarizedExperiment`
-#' objects.
+#' The data are available as `SummarizedExperiment` objects.
 #'
 #' See the proteomics tutorial from the Bioinformatics Summer School
 #' 2019 (https://lgatto.github.io/bioc-ms-prot/bss-lab.html) for
@@ -23,34 +22,15 @@
 #'
 #' @rdname cptac
 #'
-#' @aliases cptac_se cptac_prot cptac_se_prot cptac_na_se cptac_na
+#' @aliases cptac_se cptac_se_prot cptac_na_se
 #'
 #' @examples
-#' library("MSnbase")
-#' data(cptac)
-#' cptac
-#'
-#' ## data processing
-#' library("magrittr")
-#' cptac_prot <- cptac %>%
-#'    log(base = 2) %>%                    ## log2 transformation
-#'    normalise(method = "quantiles") %>%  ## normalisation
-#'    combineFeatures(fcol = "Proteins",   ## peptide aggregation
-#'                    method = "robust",
-#'                    na.rm = TRUE)
-#' cptac_prot
-#'
-#' ## To load a subset of that protein-level data
-#' data(cptac_prot)
-#' cptac_prot
-#'
-#' ## Same data as SummarizedExperiment object
 #' library("SummarizedExperiment")
 #' data(cptac_se)
 #' cptac_se
 #' data(cptac_se_prot)
 #' cptac_se_prot
-"cptac"
+"cptac_se"
 
 
 #' Example data for t-tests illustration

@@ -1,6 +1,6 @@
 Package: rWSBIM1322
 Title: Companion Package for WSBIM1322 Course
-Version: 0.3.0
+Version: 0.3.1
 Authors@R:
     person(given = "Laurent",
            family = "Gatto",
@@ -13,7 +13,6 @@ Description: Companion package for the WSBIM1322 course, distributing
 Depends: R (>= 3.5.0),
 Imports:
    SummarizedExperiment,
-   MSnbase,
    S4Vectors
 Suggests:
    rWSBIM1207,
