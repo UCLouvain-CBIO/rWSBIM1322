@@ -1,22 +1,22 @@
 Package: rWSBIM1322
 Title: Companion Package for WSBIM1322 Course
-Version: 0.2.0
+Version: 0.3.0
 Authors@R:
     person(given = "Laurent",
-	   family = "Gatto",
-	   role = c("aut", "cre"),
-	   email = "laurent.gatto@uclouvain.be",
-	   comment = c(ORCID = "0000-0002-1520-2268"))
+           family = "Gatto",
+           role = c("aut", "cre"),
+           email = "laurent.gatto@uclouvain.be",
+           comment = c(ORCID = "0000-0002-1520-2268"))
 Description: Companion package for the WSBIM1322 course, distributing
     data and general documentation, and making course administration
     easier.
 Depends: R (>= 3.5.0),
 Imports:
    SummarizedExperiment,
+   MSnbase,
    S4Vectors
 Suggests:
    rWSBIM1207,
-   MSnbase,
    mzR,
    tidyverse,
    magrittr,
@@ -39,4 +39,4 @@ Remotes:
 License: GPL-2
 Encoding: UTF-8
 LazyData: true
-RoxygenNote: 7.1.1
+RoxygenNote: 7.2.1

@@ -20,9 +20,9 @@
 #' scripts on how these data were processed.
 #'
 #' @md
-#' 
+#'
 #' @rdname cptac
-#' 
+#'
 #' @aliases cptac_se cptac_prot cptac_se_prot cptac_na_se cptac_na
 #'
 #' @examples
@@ -161,3 +161,20 @@
 #' colData(kem2_se)
 #' rowData(kem2_se)
 "kem2_se"
+
+#' Recap SummarizedExperiment data
+#'
+#' Several `SummarizedExperiment` datasets for the recap exercices in
+#' the conclusion chapter of the course.
+#'
+#' @aliases recapSE1 recapSE2
+#'
+#' @md
+#'
+#' @examples
+#' data(recapSE1)
+#' recapSE1
+#'
+#' data(recapSE2)
+#' recapSE2
+"recapSE1"
